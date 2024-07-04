@@ -1,0 +1,179 @@
+.hero{
+    background-color: #F3F3F3;
+}
+.hero-btn-shownow{
+    background-color: #EB6626;
+    color: white;
+}
+.hero-btn-explorenow{
+    border: 1px solid #EB6626;
+    color: #EB6626;
+}
+
+
+/* Serices Section Start  */
+.card-icon-container{
+    height: 54px;
+    width: 54px;
+    background-color: #EB6626;
+}
+/* Serices Section End  */
+
+
+/* Collection Section Start  */
+.coll-info-cont{
+    top: 16px;
+    left: 16px;
+}
+.coll-info-cont p:last-child{
+    font-size: 14px;
+}
+.coll-btn{
+    right: 16px;
+    bottom: 16px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #EB6626;
+    border-radius: 4px;
+    color: #EB6626;
+}
+/* Collection Section End  */
+
+
+
+
+
+
+
+/* Our Product Section Start  */
+.title-underline {
+    border-top: 2px solid #EB6626;
+    border-radius: 4px;
+    width: 76px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #EB6626;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.discount-label {
+    border-radius: 4px;
+    background-color: #EB6626;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.add-to-cart-btn {
+    background-color: #EB6626;
+    font-size: 14px;
+    bottom: 2px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.card {
+    height: 350px;
+    max-width: 312px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    background-clip: border-box;
+    border-bottom: 2px solid #F2F2F2;
+    border-radius: 0;
+}
+
+.card-img-top {
+    height: 253px;
+    width: 100%;
+    object-fit: fill;
+    border-bottom: 1px solid #D5D5D5;
+    background-color: #F3F3F3;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.card-text {
+    color: #EB6626;
+    margin-top: auto;
+}
+/* Our Product Section End  */
+
+
+
+
+
+/* Video Section Start  */
+
+.embed-responsive {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Ensure the video does not exceed the width of its container */
+    height: 0;
+    padding-bottom: 42.857%; /* 21:9 aspect ratio (h/w * 100) */
+    max-height: 500px; /* Maximum height of 500px */
+    overflow: hidden;
+  }
+  
+  .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-explore-btn{
+   bottom: 32px;
+   margin-left: 45%;
+   padding: 0 8px;
+   border: 1px solid white;
+   border-radius: 4px;
+   color: white;
+   text-decoration: none;
+  }
+  .video-explore-btn:hover{
+    color: #EB6626;
+    border: 1px solid #EB6626;
+
+  }
+    
+/* Video Section End  */
+
+
+/* Client Review Section Start  */
+.client-review-cont{
+    height: 400px;
+}
+
+
+.quotation{
+    width: 46px;
+}
+
+.carousel-item-cont{
+    height: 400px;
+}
+
+.review-title, .review-text, .reviewer-name{
+    color: black;
+}
+.review-title{
+    font-size: 36px;
+}
+/* Client Review Section End  */

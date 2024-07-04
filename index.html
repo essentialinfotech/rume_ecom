@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/_base.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Home</title>
+</head>
+<body>
+  <!-- Header Start  -->
+  <header class="container">
+    <div class="logo h-10 px-5">
+      <img src="./assets/icons/image 30.png" alt="logo">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-4">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center align-items-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="bg-white px-3 d-flex justify-content-center align-items-center">
+                  <img src="./assets/icons/MenuAlt1Outline.png" alt="">
+                  <p class="d-inline-block ms-3 mb-0 fs-5">All Categories</p>
+                </div>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="womensCollection" name="categories" value="womensCollection">
+                        <label class="form-check-label" for="womensCollection">Women's Collection</label>
+                    </div>
+                </li>
+                <li class="dropdown-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="mensCollection" name="categories" value="mensCollection">
+                        <label class="form-check-label" for="mensCollection">Men's Collection</label>
+                    </div>
+                </li>
+                <li class="dropdown-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="kidsCollection" name="categories" value="kidsCollection">
+                        <label class="form-check-label" for="kidsCollection">Kids' Collection</label>
+                    </div>
+                </li>
+                <li class="dropdown-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="accessories" name="categories" value="accessories">
+                        <label class="form-check-label" for="accessories">Accessories</label>
+                    </div>
+                </li>
+                <li class="dropdown-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="shoes" name="categories" value="shoes">
+                        <label class="form-check-label" for="shoes">Shoes</label>
+                    </div>
+                </li>
+                <li class="dropdown-item">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="jewelry" name="categories" value="jewelry">
+                        <label class="form-check-label" for="jewelry">Jewelry</label>
+                    </div>
+                </li>
+              </ul>
+            </li>
+          
+            <li class="nav-item ms-lg-5">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>           
+          </ul>
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 d-flex flex-row flex-wrap justify-content-between justify-content-lg-end">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#" tabindex="-1">
+                <img src="./assets/icons/SearchOutline.png" alt="search">
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link position-relative" href="#" tabindex="-1">
+                <img src="./assets/icons/cart.png" alt="cart">
+                <p class="cart-item-count rounded-circle text-center position-absolute bg-danger text-white">1</p>
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#" tabindex="-1">
+                <img src="./assets/icons/heart.png" alt="favourite">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1">
+                <img src="./assets/icons/user.png" alt="user">
+              </a>
+            </li>
+          </ul>
+                        
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header End  -->
+
+  <!-- Hero Section Start  -->
+  <div class="hero container my-5">
+    <div class="container col-xxl-8">
+      <div class="row flex-lg-row-reverse align-items-center">
+        <div class="col-12 col-lg-6">
+          <div class="d-flex justify-content-center justify-content-lg-start mb-3">
+            <img src="./assets/images/Group 87.png" class="img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Find The Best Fashion Style For You</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta fringilla elit ac finibus.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="#" type="button" class="hero-btn-shownow btn btn-lg px-4 me-md-2">Show Now</a>
+            <a href="#" type="button" class="hero-btn-explorenow btn btn-lg px-4">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <!-- Hero Section End  -->
+  
+  
+  <!-- Services Section Start  -->  
+  <section class="services container my-5">
+    <div class="d-flex flex-column flex-lg-row justify-content-around">
+      <a href="#" class="text-decoration-none d-block col-12 col-lg-3">
+        <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
+          <div class="card-icon-container rounded-circle d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+            <img class="m-auto" src="./assets/icons/shipping.png" alt="...">
+          </div>
+          <div class="card-text-container text-center text-lg-start ms-lg-3 w-75">
+            <h5 class="fs-5 mt-2">Free Shipping</h5>
+            <p class="fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="text-decoration-none d-block col-12 col-lg-3">
+        <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
+          <div class="card-icon-container rounded-circle d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+            <img class="m-auto" src="./assets/icons/shipping.png" alt="...">
+          </div>
+          <div class="card-text-container text-center text-lg-start ms-lg-3 w-75">
+            <h5 class="fs-5 mt-2">Free Shipping</h5>
+            <p class="fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="text-decoration-none d-block col-12 col-lg-3">
+        <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
+          <div class="card-icon-container rounded-circle d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+            <img class="m-auto" src="./assets/icons/shipping.png" alt="...">
+          </div>
+          <div class="card-text-container text-center text-lg-start ms-lg-3 w-75">
+            <h5 class="fs-5 mt-2">Free Shipping</h5>
+            <p class="fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+  <!-- Services Section Start  -->   
+
+
+  <!-- Collections Section Start -->
+  <!-- Collection == coll  -->
+  <section class="container collections my-5">
+  <div class="d-flex flex-column align-items-md-center align-items-lg-stretch flex-lg-row">
+    <div class="coll-left col-12 col-md-6 col-lg-4">
+      <div class="coll-card position-relative mb-3">
+          <img class="w-100" src="./assets/images/man.png" alt="men's collection">
+        <div class="coll-info-cont position-absolute">
+          <p class="coll-text fs-5 fw-bold">Best Collection for Man</p>
+          <p class="coll-text fs-6 fw-light">Fashion Collection-2024</p>
+        </div>
+        <a href="" class="coll-btn px-2 fs-6 position-absolute d-block">Shop Now</a>
+      </div>
+
+      <div class="coll-card position-relative">        
+          <img class="w-100" src="./assets/images/glass.png" alt="men's collection">          
+        <div class="coll-info-cont position-absolute">
+          <p class="coll-text fs-5 fw-bold">Best Collection for Man</p>
+          <p class="coll-text fs-6 fw-light">Fashion Collection-2024</p>
+        </div>
+        <a href="" class="coll-btn px-2 fs-6 position-absolute d-block">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="coll-middle col-12 col-md-6 col-lg-4 mx-0 px-0 py-3 px-lg-3 py-lg-0">
+      <div class="coll-card position-relative h-100">
+        <img class="h-100 w-100" src="./assets/images/women-y.png" alt="men's collection">
+        <div class="coll-info-cont position-absolute">
+          <p class="coll-text fs-5 fw-bold">Best Collection for Man</p>
+          <p class="coll-text fs-6 fw-light">Fashion Collection-2024</p>
+        </div>
+        <a href="" class="coll-btn px-2 fs-6 position-absolute d-block">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="coll-right col-12 col-md-6 col-lg-4">
+      <div class="coll-card position-relative mb-3">
+          <img class="w-100" src="./assets/images/child.png" alt="men's collection">
+        <div class="coll-info-cont position-absolute">
+          <p class="coll-text fs-5 fw-bold">Best Collection for Man</p>
+          <p class="coll-text fs-6 fw-light">Fashion Collection-2024</p>
+        </div>
+        <a href="" class="coll-btn px-2 fs-6 position-absolute d-block">Shop Now</a>
+      </div>
+      <div class="coll-card position-relative">
+          <img class="w-100" src="./assets/images/shoes.png" alt="men's collection">
+        <div class="coll-info-cont position-absolute">
+          <p class="coll-text fs-5 fw-bold">Best Collection for Man</p>
+          <p class="coll-text fs-6 fw-light">Fashion Collection-2024</p>
+        </div>
+        <a href="" class="coll-btn px-2 fs-6 position-absolute d-block">Shop Now</a>
+      </div>
+    </div>  
+  </section>
+  <!-- Collections Section End -->
+
+
+  <!-- Our Product Section Start  -->
+  <section class="ourproduct">
+    <div>
+      <div class="ourproduct-section-header">
+        <div class="title-cont d-flex flex-column align-items-center justify-content-center">
+          <div class="fs-2 fw-500">Our Product</div>          
+          <div class="title-underline"></div>
+        </div>
+        <ul class="nav justify-content-center mt-3">
+          <li class="nav-item">
+            <a class="nav-link active fs-6 fw-normal" href="#" data-filter="all">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6 fw-normal" href="#" data-filter="women">Women's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6 fw-normal" href="#" data-filter="men">Men's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6 fw-normal" href="#" data-filter="kids">Kid's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6 fw-normal" href="#" data-filter="accessories">Accessories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container my-5">        
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-3 d-flex justify-content-center"> 
+        
+        <div class="col" data-category="men">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/brown-jacket.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>        
+        
+        <div class="col" data-category="women">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/yelw-glass.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-category="women">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/blk-bag.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-category="women">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/blk-cout.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-category="accessories">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/red-bag.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-category="men">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/blk-shoes.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-category="women">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/ritch-band.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-category="men">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/hoodi.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Our Product Section End  -->
+
+  
+  <!-- Video Section Start  -->
+  <section class="video container my-5">
+    <div class="embed-responsive embed-responsive-21by9 position-relative">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6xY_LQzTyus" allowfullscreen></iframe>
+      <a class="video-explore-btn position-absolute fs-6 fw-normal" href="">Explore Now</a>
+    </div>       
+  </section>
+  <!-- Video Section End  -->
+
+
+
+
+  <!-- Latest Product Section Start  -->
+  <section class="latestproduct">
+    <div>
+      <div class="ourproduct-section-header">
+        <div class="title-cont d-flex flex-column align-items-center justify-content-center">
+          <div class="fs-2 fw-500">Latest Product</div>          
+          <div class="title-underline"></div>
+        </div>
+        <ul class="nav justify-content-center mt-3">
+          <li class="nav-item">
+            <a class="nav-link lp-link active fs-6 fw-normal" href="#" data-filter="all">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lp-link fs-6 fw-normal" href="#" data-filter="trendy">Trendy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lp-link fs-6 fw-normal" href="#" data-filter="top-selling">Top Selling</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    
+    <div class="container my-5">        
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 g-md-3 d-flex justify-content-center products-container"> 
+        
+
+        <div class="col" data-category="new-arrival">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/green.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col" data-category="new-arrival">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/gray_bag.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col" data-category="top-selling">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/white_dress.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col" data-category="trendy">
+          <div class="card">
+            <div class="position-relative">
+              <img src="./assets/images/green-shoes.png" class="card-img-top" alt="...">
+              <div class="discount-label position-absolute top-0 start-0 text-white m-1 p-1">30% off</div>
+              <button class="add-to-cart-btn text-white position-absolute translate-middle-x btn">Add to cart</button>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <div class="card-title-conr d-flex justify-content-between">
+                <p class="fs-6 fw-normal">Card Title</p>
+                <div>
+                <input type="radio" name="color1">
+                <input type="radio" name="color2">
+                <input type="radio" name="color3">
+                </div>
+              </div>
+              <p class="card-text fs-5 fw-500">$34</p>
+              <p class="fw-normal" style="font-size: 12px;">
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star star-checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                (Rating)
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>  
+  <!-- Latest Product Section End  -->
+
+
+  
+  
+  
+
+  <!-- Client Review Section Start  -->
+  <section class="client-review-cont container my-5">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active bg-danger"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="bg-danger"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="bg-danger"></button>
+      </div>
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+
+
+        <div class="carousel-item active">
+          <div class="carousel-item-cont d-flex flex-column justify-content-center align-items-center " style="width:100%">
+            <img class="quotation mb-3" src="./assets/images/quotation.png" alt="">
+            <p class="review-title text-center">Check what these clients <br> have to say</p>
+            <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta fringilla elit ac finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p class="reviewer-name">Hasan Rume</p>
+          </div>
+        </div>
+
+        
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev bg-primary" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-success"></span>
+      </button>
+      <button class="carousel-control-next bg-primary" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-success"></span>
+      </button>
+    </div>
+  </section>
+  <!-- Client Review Section End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./assets/js/our_products.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
