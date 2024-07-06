@@ -261,4 +261,43 @@
 #socialCarousel{
     height: 232px;
 }
+
 /* Social Section End  */
+
+
+
+
+
+
+/* Footer Section Start  */
+.footer-seciton{
+    background-color: #1A1818;
+    color: white;
+}
+.email-input{
+    padding-left: 38px;
+    outline: none;
+}
+.email-icon{
+    left: 8px;
+    top: 7px;
+}
+
+.email-icon2{
+    left: 100px;
+
+}
+.subscript-btn{
+    background-color: #EB6626;
+    color: white;
+    border-radius: 0;
+}
+
+.app-store-icon{
+    width: 40%;
+}
+/* Footer Section End  */
+
+
+
+
