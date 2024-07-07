@@ -1,0 +1,49 @@
+a{
+    color: white;
+}
+
+.clear-all-btn{
+    color: #EB6626;
+}
+
+.color-radio input[type="radio"] {
+  display: none;
+}
+.color-radio label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.color-radio input[type="radio"]:checked + label {
+  outline: 1px solid;
+}
+.color-red { background-color: red; }
+.color-black { background-color: black; }
+.color-gray { background-color: gray; }
+.color-ash { background-color: #b2beb5; }
+.color-yellow { background-color: yellow; }
+.color-skyblue { background-color: skyblue; }
+
+
+
+
+
+.dual-range-slider {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.range-values {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

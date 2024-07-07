@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
+
+    <title>Shop</title>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-item-cont position-relative">
+            <img src="./assets/images/shop-bg-img.png" alt="background image" class="w-100">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb position-absolute top-50 start-50 translate-middle fs-2">
+                    <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <div class="container d-flex justify-content-between">
+        <div class="filter w-25 me-5 d-flex flex-column">
+            <form id="categoriesForm">
+                <div class="d-flex justify-content-between">
+                    <p class=" fw-bold fs-6">Filter</p>
+                    <p type="button" class="clear-all-btn" onclick="clearFilters()">Clear All</p>
+                </div>
+                <hr>
+                <!-- Categories Checkboxes -->
+                <div class="mb-3">
+                    <label class="form-label fw-bold fs-6">Categories</label>
+                    <div class="ms-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="dresses" name="categories" value="Dresses">
+                            <label class="form-check-label" for="dresses">Dresses</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tshirts" name="categories" value="T-shirt">
+                            <label class="form-check-label" for="tshirts">T-shirt</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="bags" name="categories" value="Bags">
+                            <label class="form-check-label" for="bags">Bags</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="jackets" name="categories" value="Jacket">
+                            <label class="form-check-label" for="jackets">Jacket</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="shoes" name="categories" value="Shoes">
+                            <label class="form-check-label" for="shoes">Shoes</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="jeans" name="categories" value="Jeans">
+                            <label class="form-check-label" for="jeans">Jeans</label>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Size Checkboxes -->
+                <div class="mb-3">
+                    <label class="form-label fw-bold fs-6">Size</label>
+                    <div class="ms-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sizeS" name="size" value="S">
+                            <label class="form-check-label" for="sizeS">S</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sizeM" name="size" value="M">
+                            <label class="form-check-label" for="sizeM">M</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sizeL" name="size" value="L">
+                            <label class="form-check-label" for="sizeL">L</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sizeXL" name="size" value="XL">
+                            <label class="form-check-label" for="sizeXL">XL</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sizeXXL" name="size" value="XXL">
+                            <label class="form-check-label" for="sizeXXL">XXL</label>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Color Radio Buttons -->
+                <div class="mb-3">          
+                    <label class="form-label fw-bold fs-6">Color</label>
+                    <div class="d-flex ms-3">
+                        <div class="color-radio">
+                            <input type="radio" id="colorRed" name="color" value="red">
+                            <label for="colorRed" class="color-red"></label>
+                        </div>
+                        <div class="color-radio">
+                            <input type="radio" id="colorBlack" name="color" value="black">
+                            <label for="colorBlack" class="color-black"></label>
+                        </div>
+                        <div class="color-radio">
+                            <input type="radio" id="colorGray" name="color" value="gray">
+                            <label for="colorGray" class="color-gray"></label>
+                        </div>
+                        <div class="color-radio">
+                            <input type="radio" id="colorAsh" name="color" value="ash">
+                            <label for="colorAsh" class="color-ash"></label>
+                        </div>
+                        <div class="color-radio">
+                            <input type="radio" id="colorYellow" name="color" value="yellow">
+                            <label for="colorYellow" class="color-yellow"></label>
+                        </div>
+                        <div class="color-radio">
+                            <input type="radio" id="colorSkyblue" name="color" value="skyblue">
+                            <label for="colorSkyblue" class="color-skyblue"></label>
+                        </div>
+                    </div>           
+                    
+                </div>
+            
+                <!-- Brand Checkboxes -->
+                <div class="mb-3">
+                    <label class="form-label fw-bold fs-6">Brand</label>
+                    <div class="ms-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="brandUGG" name="brand" value="UGG">
+                            <label class="form-check-label" for="brandUGG">UGG</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="brandNike" name="brand" value="Nike">
+                            <label class="form-check-label" for="brandNike">Nike</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="brandNB" name="brand" value="NB">
+                            <label class="form-check-label" for="brandNB">New Balance</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="brandGeox" name="brand" value="Geox">
+                            <label class="form-check-label" for="brandGeox">Geox</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold fs-6">Price</label>
+                    <div class="dual-range-slider">
+                        <input type="range" min="0" max="100" value="25" class="slider" id="range1">
+                        <input type="range" min="0" max="100" value="75" class="slider" id="range2">
+                        <span class="range-values" id="rangeValues">25 - 75</span>
+                    </div>
+                </div>
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary">Apply Filters</button>
+            </form>
+        </div>
+        <div class="products bg-danger w-75 ms-5 d-flex flex-column">
+            <div class="product-into-cont w-100 bg-danger">
+                <img src="./assets/images/" alt="" class="w-25">
+                <div class="product-info">
+                    <p>Women</p>
+                    <div class="product-name">
+                        <p>Pink Tops Pencil skirt</p>
+                        <img src="./assets/icons/heart.png" alt="">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="product-rating">width 15%</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/shop.js"></script>
+</body>
+</html>
