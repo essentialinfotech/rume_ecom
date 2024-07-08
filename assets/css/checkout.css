@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+.ckout-form{
+    border: 1px solid #C7C7C7;
+}
+.ckout-submit-btn{
+    background-color: #EB6626;
+    color: white;
+}
+
+.ckout-billing-text{
+    color: #EB6626;
+    font-weight: 500;
+}
+
+
+.ckout-links{
+    color: black;
+    cursor: pointer;
+}
+.ckout-square-icon{
+    width: 16px;
+    height: 14px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
