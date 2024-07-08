@@ -1,0 +1,62 @@
+
+.cart-table-tr{
+    display: flex;
+    padding: 16px 0;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+
+.cart-item{
+    flex-basis: 45%;
+}
+
+.cart-item-image{
+    width: 76px;
+    height: 55px;
+    object-fit: contain;
+    background-color: #F3F3F3;
+    border: 1px solid #A0A0A0;   
+}
+.cart-item-price{
+    flex-basis: 15%;    
+}
+.cart-item-quantity{
+    flex-basis: 15%;    
+}
+.cart-item-total{
+    flex-basis: 15%;
+    color: #EB6626;    
+}
+
+
+.cart-bill-form{
+    border: 1px solid #D5D5D5;
+}
+
+
+.coupon-code-input{
+    border: 1px solid #D5D5D5;
+    padding-left: 8px;
+    outline: none;
+    height: 32px;
+}
+.cart-right-arrow-btn {
+    padding-left: 9px;
+    padding-right: 6px;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cart-right-arrow-btn:hover{
+    background-color: #777;
+}
+
+.cart-right-arrow-icon{
+    height: 20px;
+    width: 20px;
+}
+.coupon-text, .coupon-code-input, .coupon-code-input::placeholder{
+    color: #9B9B9B;
+}
